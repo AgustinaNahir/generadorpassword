@@ -22,6 +22,7 @@ form.classList.add("form");
 const unaFuncion = (tipoInput, items, key) => {
 
     const fieldset = document.createElement('fieldset');
+    fieldset.classList.add("box")
 
     for(const elem of items) {
         const label = document.createElement("label")
