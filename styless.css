@@ -13,10 +13,11 @@ body{
 }
 
 .card{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contenedor{
-    width: 560px;
     margin: auto;
     padding: 0px 15px;
     background-color: rgb(242, 242, 242);
@@ -24,25 +25,25 @@ body{
     border-radius: 20px;
     text-align: left;
 }
+
+
 .input{
     margin-top: 50px;
     margin-bottom: 20px;
-    width: 560px;
+    width: 500px;
     height: 70px;
     border: none;
     background-color: rgb(238, 238, 238);
     border-radius: 20px;
     font-size: 40px;
 }
+
 .box {
-    height: 100px;
-    padding: 30px;
+    height: 140px;
+    padding: 30px 30px 30px 10px;
     display: inline;
     border: none;
     text-align: left;
-}
-.label{
-    margin-left: 10px;
 }
 .titulo {
     padding: 10px 10px 0 10px;
@@ -50,8 +51,19 @@ body{
     align-items: center;
     color: #085e66;
 }
+
+.subtitulo{
+    margin-bottom: 10px;
+
+}
+.label{
+    margin-left: 10px;
+}
+
+
 .form{
-    padding: 15px;
+   
+
 }
 
 
